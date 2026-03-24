@@ -1,0 +1,4 @@
+create table if not exists _invoices(
+        id bigint auto_increment primary key not null,
+        num nvarchar(50) not null
+);

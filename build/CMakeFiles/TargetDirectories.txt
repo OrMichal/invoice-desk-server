@@ -1,0 +1,3 @@
+/home/orsah/Plocha/invoice-desk-server/build/CMakeFiles/drogon_server.dir
+/home/orsah/Plocha/invoice-desk-server/build/CMakeFiles/edit_cache.dir
+/home/orsah/Plocha/invoice-desk-server/build/CMakeFiles/rebuild_cache.dir
