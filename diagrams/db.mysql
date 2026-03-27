@@ -5,6 +5,8 @@ create table if not exists _invoices(
         company_id nvarchar(20) not null,
         vat_id nvarchar(20) not null,
         constant_symbol nvarchar(15) not null,
+        suppy_method nvarchar(30) not null,
+        payment_method nvarchar(20) not null,
         client nvarchar(200) not null,
         recipient nvarchar(70) not null,
         rec_account_number nvarchar(30) not null,
@@ -33,4 +35,16 @@ create table if not exists _invoice_product(
 
 create table if not exists _invoice_template(
         id bigint auto_increment primary key not null
+        supplier nvarchar(200) not null,
+        company_id nvarchar(20) not null,
+        vat_id nvarchar(20) not null,
+        constant_symbol nvarchar(15) not null,
+        suppy_method nvarchar(30) not null,
+        payment_method nvarchar(20) not null,
+        client nvarchar(200) not null,
+        recipient nvarchar(70) not null,
+        rec_account_number nvarchar(30) not null,
+        rec_company_id nvarchar(20) not null,
+        rec_vat_id nvarchar(20) not null,
 );
+
